@@ -13,9 +13,9 @@ test_plots.py is to generate orientation plots for test_data <br>
 # The structure of the repo should reflect as below
 
 Submission<br>
-    code<br>
-        main.py<br>
-        test.py<br>
+>>code<br>
+      >>>  main.py<br>
+      >>>  test.py<br>
         ...<br>
         ...<br>
         ...<br>
