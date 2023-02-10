@@ -12,54 +12,54 @@ test_plots.py is to generate orientation plots for test_data <br>
 
 # The structure of the repo should reflect as below
 
-Submission
-    code
-        main.py
-        test.py
-        ...
-        ...
-        ...
-    data
-        ECE276A_P1_2023
-            trainset
-                cam
-                    cam1.p
-                    cam2.p
-                    cam8.p
-                    cam9.p
-                imu
-                vicon
-            testset
-                cam
-                    cam10.p
-                    cam11.p
-                imu
-                    imuRaw10.p
-                    imuRaw11.p
+Submission<br>
+    code<br>
+        main.py<br>
+        test.py<br>
+        ...<br>
+        ...<br>
+        ...<br>
+    data<br>
+        ECE276A_P1_2023<br>
+            trainset<br>
+                cam<br>
+                    cam1.p<br>
+                    cam2.p<br>
+                    cam8.p<br>
+                    cam9.p<br>
+                imu<br>
+                vicon<br>
+            testset<br>
+                cam<br>
+                    cam10.p<br>
+                    cam11.p<br>
+                imu<br>
+                    imuRaw10.p<br>
+                    imuRaw11.p<br>
 
 # Instructions to run
 
 Run all the steps in order
 
-1. cd code
+1. cd code<br>
 
-2. python load_data.py
+2. python load_data.py<br>
 
-#change seq_id accordingly and run for all the datasets from '1' to '9' before proceding to next step. 
+#change seq_id accordingly and run for all the datasets from '1' to '9' before proceding to next step. <br>
 
-3. python main.py --seq_id '1'
+3. python main.py --seq_id '1'<br>
 
-#the below is to generate the plots. 
-4. python compare_plots.py 
+#the below is to generate the plots. <br>
+4. python compare_plots.py <br>
 
-#the below is to optimize on test data and generate pickle files. 
-5. python test.py
+#the below is to optimize on test data and generate pickle files. <br>
+5. python test.py<br>
 
-#the below is to generate the test orientation plots. 
-6. python test_plots.py
+#the below is to generate the test orientation plots. <br>
+6. python test_plots.py<br>
 
-#the below is to generate panormas for the train data. 
-7. python pano_train.py
+#the below is to generate panormas for the train data. <br>
+7. python pano_train.py<br>
 
-#the below is to generate panorama for the test data. 
-8. python pano_test.py
+#the below is to generate panorama for the test data. <br>
+8. python pano_test.py<br>
