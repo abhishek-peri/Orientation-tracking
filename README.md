@@ -13,22 +13,22 @@ test_plots.py is to generate orientation plots for test_data <br>
 # The structure of the repo should reflect as below
 
 Submission<br>
->>code<br>
-      >>>  main.py<br>
-      >>>  test.py<br>
-      >>>  ...<br>
-      >>>  ...<br>
-      >>>  ...<br>
+    code<br>
+      main.py<br>
+      test.py<br>
+      ...<br>
+      ...<br>
+      ...<br>
     data<br>
-     >>   ECE276A_P1_2023<br>
-       >>>     trainset<br>
-          >>>>      cam<br>
-             >>>>>       cam1.p<br>
-               >>>>>    cam2.p<br>
-                   >>>>> cam8.p<br>
-                    >>>>> cam9.p<br>
-                >>>imu<br>
-                >>>vicon<br>
+      ECE276A_P1_2023<br>
+            trainset<br>
+                  cam<br>
+                        cam1.p<br>
+                        cam2.p<br>
+                        cam8.p<br>
+                        cam9.p<br>
+                  imu<br>
+                  vicon<br>
             testset<br>
                 cam<br>
                     cam10.p<br>
