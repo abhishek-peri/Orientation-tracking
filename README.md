@@ -1,14 +1,14 @@
 # The codes are organized in the following way
 
-main.py is the code that runs the optimization for train data. 
-test.py is the code that runs the optimization for test data. 
-compare_plots.py generates the plots for the orientations. 
-load_data.py generates the pickle files for euler angles of the VICON data used for plots. 
-utils.py holds all the functions needed to run the scripts.   
-motion.py has the functions for motion model and the observation model. 
-pano_train.py is to generate panorama for train data. 
-pano_test.py is to generate panorama for test data. 
-test_plots.py is to generate orientation plots for test_data
+main.py is the code that runs the optimization for train data. <br>
+test.py is the code that runs the optimization for test data. <br>
+compare_plots.py generates the plots for the orientations. <br>
+load_data.py generates the pickle files for euler angles of the VICON data used for plots. <br>
+utils.py holds all the functions needed to run the scripts.   <br>
+motion.py has the functions for motion model and the observation model. <br>
+pano_train.py is to generate panorama for train data. <br>
+pano_test.py is to generate panorama for test data. <br>
+test_plots.py is to generate orientation plots for test_data <br>
 
 # The structure of the repo should reflect as below
 
